@@ -27,10 +27,6 @@ const Header = () => (
           <Col className="d-none d-lg-flex justify-content-start">
             <Nav className="mrx-auto" navbar>
               <NavItem className="d-flex align-items-center">
-                <NavLink className="font-weight-bold" href="/" />
-              </NavItem>
-
-              <NavItem className="d-flex align-items-center">
                 <NavLink className="font-weight-bold" href="/">
                   Home
                 </NavLink>
