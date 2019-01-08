@@ -35,13 +35,17 @@ const Header = () => (
           </Col>
           <Col className="d-none d-lg-flex justify-content-end">
             <Form inline>
-              <Input
-                type="search"
-                className="mr-3"
-                placeholder="Search My Articles"
-              />
-              <Button type="submit" color="info" outline>
+              <Input type="search" placeholder="Search My Articles" />
+              <Button type="submit" color="secondary" className="mr-3" outline>
                 Search
+              </Button>
+            </Form>
+            <Form inline>
+              <Button type="submit" color="info" outline>
+                SignIn
+              </Button>
+              <Button type="submit" color="success" outline>
+                SignUp
               </Button>
             </Form>
           </Col>
